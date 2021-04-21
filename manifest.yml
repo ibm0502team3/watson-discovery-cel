@@ -1,0 +1,8 @@
+---
+applications:
+- path: .
+  name: watson-discovery-cel
+  buildpack: sdk-for-nodejs
+  memory: 256M
+  random-route: false
+  instances: 1

@@ -205,7 +205,7 @@ Click **Apply changes to collection** to start the process of loading the discov
 
 ![select_disco_files](doc/source/images/select-disco-files.png)
 
-Drag and drop your documents here or browse to your local computer files to load the collection with the json files located in [data/food_reviews](data/food_reviews/).
+Drag and drop your documents here or browse to your local computer files to load the collection with the json files located in [data/customer](data/customer_reviews/).
 
 > NOTE: If using the **Discovery Lite** plan, you are limited to loading up to 1000 files into your discovery service. This limit is not per collection, but the combined number for all collections in your service.
 

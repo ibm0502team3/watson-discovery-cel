@@ -1,8 +1,7 @@
-[![Build Status](https://api.travis-ci.org/IBM/watson-discovery-food-reviews.svg?branch=master)](https://travis-ci.org/IBM/watson-discovery-food-reviews)
 
-# Discover customer sentiment from product reviews
+# Discover customer sentiment from customer reviews
 
-In this code pattern, we walk you through a working example of a web application that queries and manipulates data from the Watson Discovery Service. With the aid of a custom model built with Watson Knowledge studio, the data will have additional enrichments that will provide improved insights for user analysis.
+In this project, we walk you through a working example of a web application that queries and manipulates data from the Watson Discovery Service. With the aid of a custom model built with Watson Knowledge studio, the data will have additional enrichments that will provide improved insights for user analysis.
 
 This web app contains multiple UI components that you can use as a starting point for developing your own Watson Discovery and Knowledge Studio service applications. 
 
@@ -75,7 +74,7 @@ Finally, we will hope to understand how to:
 ## 1. Clone the repo
 
 ```bash
-git clone https://github.com/IBM/watson-discovery-food-reviews
+git clone https://github.com/ibm0502team3/watson-discovery-cel.git
 ```
 
 ## 2. Create IBM Cloud services

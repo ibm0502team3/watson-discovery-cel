@@ -6,4 +6,4 @@
 
 * The data used was from the [Amazon Fine Food Reviews](https://www.kaggle.com/snap/amazon-fine-food-reviews) data set on Kaggle.
 
-  > J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013.
+  > J. McAuley and J.J Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013.

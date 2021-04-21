@@ -1,8 +1,7 @@
-[![Build Status](https://api.travis-ci.org/IBM/watson-discovery-food-reviews.svg?branch=master)](https://travis-ci.org/IBM/watson-discovery-food-reviews)
+ 
+# Discover customer sentiment from customer reviews
 
-# Discover customer sentiment from product reviews
-
-In this code pattern, we walk you through a working example of a web application that queries and manipulates data from the Watson Discovery Service. With the aid of a custom model built with Watson Knowledge studio, the data will have additional enrichments that will provide improved insights for user analysis.
+In this project, we setup a working example of a web application that queries and manipulates data from the Watson Discovery Service. With the aid of a custom model built with Watson Knowledge studio, the data will have additional enrichments that will provide improved insights for user analysis.
 
 This web app contains multiple UI components that you can use as a starting point for developing your own Watson Discovery and Knowledge Studio service applications. 
 
@@ -17,9 +16,9 @@ The main benefit of using the Watson Discovery Service is its powerful analytics
 
 With Watson Knowledge Studio, a machine learning annotator can be trained to recognize mentions of custom entity and relation types which can then be incorporated into the Discovery application enrichment process.
 
-> For this code pattern, we will be using data that contains food reviews from Amazon, see the [Kaggle dataset](https://www.kaggle.com/snap/amazon-fine-food-reviews) for further information.
+> For this project, we will be using data that contains customer reviews from travel, dining and shopping in Singapore
 
-When the reader has completed this code pattern, they will understand how to:
+We will understand how to:
 
 * Use Watson Knowledge Studio to create a custom annotator.
 * Deploy a Watson Knowledge Studio model to Watson Discovery.
@@ -56,26 +55,13 @@ When the reader has completed this code pattern, they will understand how to:
 * [Chart.js](https://www.chartjs.org/): JavaScript charting package.
 * [Jest](https://jestjs.io/): A JavaScript test framework.
 
-# Watch the Video
-
-[![video](https://img.youtube.com/vi/gzlUSyLccSg/0.jpg)](https://youtu.be/gzlUSyLccSg)
-
-# Steps
-
-1. [Clone the repo](#1-clone-the-repo)
-1. [Create IBM Cloud services](#2-create-ibm-cloud-services)
-1. [Create a Watson Knowledge Studio workspace](#3-create-a-watson-knowledge-studio-workspace)
-1. [Upload Type System](#4-upload-type-system)
-1. [Import Corpus Documents](#5-import-corpus-documents)
-1. [Create the model](#6-create-the-model)
-1. [Deploy the machine learning model to Watson Discovery](#7-deploy-the-machine-learning-model-to-watson-discovery)
-1. [Create Discovery Collection](#8-create-discovery-collection)
-1. [Deploy the application](#9-deploy-the-application)
+ 
+ 
 
 ## 1. Clone the repo
 
 ```bash
-git clone https://github.com/IBM/watson-discovery-food-reviews
+git clone https://github.com/ibm0502team3/watson-discovery-cel
 ```
 
 ## 2. Create IBM Cloud services
@@ -106,12 +92,6 @@ Press the **Upload** button. This will upload a set of Entity Types and Relation
 ![wks_entity_types](doc/source/images/entity-types.png)
 
 ![wks_relation_types](doc/source/images/relation-types.png)
-
-## 5. Import Corpus Documents
-
-Corpus documents are required to train our machine-learning annotator component. For this code pattern, the corpus documents will contain sample review documents.
-
-From the **Assets** -> **Documents** panel, press the **Upload Document Sets** button to import a Document Set file. Use the corpus documents file [data/watson-discovery-food-reviews/data/corpus-2aa46ad0-31da-11e8-89a9-efc0f3b77492.zip](data/watson-discovery-food-reviews/data/corpus-2aa46ad0-31da-11e8-89a9-efc0f3b77492.zip) found in the local repository.
 
 > NOTE: Select the option to "upload corpus documents and include ground truth (upload the original workspace's type system first)"
 
@@ -244,13 +224,11 @@ Drag and drop your documents here or browse to your local computer files to load
 * [Demo on Youtube](https://www.youtube.com/watch?v=todo): Watch the video
 * [Watson Node.js SDK](https://github.com/watson-developer-cloud/node-sdk): Download the Watson Node SDK.
 * [Discovery Search UI](https://github.com/IBM/watson-discovery-ui): A sample UI that this repo is based on.
-* [Kaggle dataset](https://www.kaggle.com/snap/amazon-fine-food-reviews): A dataset of Amazon reviews.
-
+ 
 # Learn more
 
 * **Artificial Intelligence Code Patterns**: Enjoyed this code pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/technologies/artificial-intelligence/).
 * **AI and Data Code Pattern Playlist**: Bookmark our [playlist](https://www.youtube.com/playlist?list=PLzUbsvIyrNfknNewObx5N7uGZ5FKH0Fde) with all of our code pattern videos
-* **With Watson**: Want to take your Watson app to the next level? Looking to utilize Watson Brand assets? [Join the With Watson program](https://www.ibm.com/watson/with-watson/) to leverage exclusive brand, marketing, and tech resources to amplify and accelerate your Watson embedded commercial solution.
 
 # License
 

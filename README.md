@@ -17,9 +17,9 @@ The main benefit of using the Watson Discovery Service is its powerful analytics
 
 With Watson Knowledge Studio, a machine learning annotator can be trained to recognize mentions of custom entity and relation types which can then be incorporated into the Discovery application enrichment process.
 
-> For this code pattern, we will be using data that contains food reviews from Amazon, see the [Kaggle dataset](https://www.kaggle.com/snap/amazon-fine-food-reviews) for further information.
+> For this project, we will be using data that contains customer reviews across travel, shopping and dining.
 
-When the reader has completed this code pattern, they will understand how to:
+Finally, we will hope to understand how to:
 
 * Use Watson Knowledge Studio to create a custom annotator.
 * Deploy a Watson Knowledge Studio model to Watson Discovery.
@@ -35,7 +35,7 @@ When the reader has completed this code pattern, they will understand how to:
 1. A sample set of review documents are loaded into Watson Knowledge Studio for annotation.
 1. A Watson Knowledge Studio model is created.
 1. The Watson Knowledge Studio model is applied to a Watson Discovery service instance.
-1. The food review json files are added to the Discovery collection.
+1. The customer review json files are added to the Discovery collection.
 1. The user interacts with the backend server via the app UI. The frontend app UI uses React to render search results and can reuse all of the views that are used by the backend for server side rendering. The frontend is using semantic-ui-react components and is responsive.
 1. User input is processed and routed to the backend server, which is responsible for server side rendering of the views to be displayed on the browser. The backend server is written using express and uses express-react-views engine to render views written using React.
 1. The backend server sends user requests to the Watson Discovery Service. It acts as a proxy server, forwarding queries from the frontend to the Watson Discovery Service API while keeping sensitive API keys concealed from the user.

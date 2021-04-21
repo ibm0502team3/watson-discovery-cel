@@ -1,12 +1,12 @@
 {
-  "name": "watson-discovery-food-reviews",
+  "name": "watson-discovery-cel",
   "version": "1.0.0",
   "private": true,
   "main": "app.js",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM/watson-discovery-food-reviews"
+    "url": "https://github.com/ibm0502team3/watson-discovery-cel"
   },
   "scripts": {
     "start": "node app.js",

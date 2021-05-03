@@ -1,0 +1,3791 @@
+{
+  "intents": [
+    {
+      "intent": "about",
+      "examples": [
+        {
+          "text": "How can you help me"
+        },
+        {
+          "text": "What can you do?"
+        }
+      ],
+      "description": "About chatbot"
+    },
+    {
+      "intent": "buy_dining_vouchers",
+      "examples": [
+        {
+          "text": "buy Crystal Jade"
+        },
+        {
+          "text": "buy kinki fish"
+        },
+        {
+          "text": "buy shake shack"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "buy_exploring_voucher",
+      "examples": [
+        {
+          "text": "buy Fairmont"
+        },
+        {
+          "text": "buy Snow City"
+        },
+        {
+          "text": "Universal Studios"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "buy_shopping_voucher",
+      "examples": [
+        {
+          "text": "buy Europace"
+        },
+        {
+          "text": "buy Kidmoro"
+        },
+        {
+          "text": "buy Vitadeals"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "buy_voucher",
+      "examples": [
+        {
+          "text": "add promo"
+        },
+        {
+          "text": "add promotion"
+        },
+        {
+          "text": "add promotions"
+        },
+        {
+          "text": "add voucher"
+        },
+        {
+          "text": "add vouchers"
+        },
+        {
+          "text": "buy promotion"
+        },
+        {
+          "text": "buy promotions"
+        },
+        {
+          "text": "buy voucher"
+        },
+        {
+          "text": "buy vouchers"
+        },
+        {
+          "text": "Change of mind"
+        },
+        {
+          "text": "how to buy"
+        },
+        {
+          "text": "how to buy voucher"
+        },
+        {
+          "text": "How to order?"
+        },
+        {
+          "text": "i want to buy voucher"
+        },
+        {
+          "text": "i would like to buy voucher"
+        },
+        {
+          "text": "like to buy"
+        },
+        {
+          "text": "like to order"
+        },
+        {
+          "text": "order"
+        },
+        {
+          "text": "order voucher"
+        },
+        {
+          "text": "order vouchers"
+        },
+        {
+          "text": "Return to categories"
+        },
+        {
+          "text": "vouch"
+        },
+        {
+          "text": "voucher"
+        },
+        {
+          "text": "voucher?"
+        },
+        {
+          "text": "voucher pls"
+        },
+        {
+          "text": "vouchers"
+        },
+        {
+          "text": "where to buy voucher"
+        },
+        {
+          "text": "where to order voucher"
+        }
+      ],
+      "description": "buy voucher"
+    },
+    {
+      "intent": "Cancel",
+      "examples": [
+        {
+          "text": "cancel order"
+        },
+        {
+          "text": "cancel that"
+        },
+        {
+          "text": "cancel the request"
+        },
+        {
+          "text": "dont want order"
+        },
+        {
+          "text": "don't want voucher"
+        },
+        {
+          "text": "forget it"
+        },
+        {
+          "text": "i changed my mind"
+        },
+        {
+          "text": "i don't want the appointment anymore anymore"
+        },
+        {
+          "text": "never mind"
+        },
+        {
+          "text": "nevermind"
+        }
+      ],
+      "description": "Cancel the current request"
+    },
+    {
+      "intent": "Dining_promotions",
+      "examples": [
+        {
+          "text": "Buffet"
+        },
+        {
+          "text": "dining promo"
+        },
+        {
+          "text": "dining promotion"
+        },
+        {
+          "text": "dining promotions"
+        },
+        {
+          "text": "eating promotions"
+        },
+        {
+          "text": "F&B"
+        },
+        {
+          "text": "F&B deals"
+        },
+        {
+          "text": "F&B promotions"
+        },
+        {
+          "text": "Food"
+        },
+        {
+          "text": "i want dining promotions"
+        },
+        {
+          "text": "Restaurants"
+        },
+        {
+          "text": "show me best dining deals"
+        },
+        {
+          "text": "show me crystal jade promotion"
+        },
+        {
+          "text": "show me dining deals"
+        },
+        {
+          "text": "show me dining promotions"
+        },
+        {
+          "text": "show me kinki fish promotion"
+        },
+        {
+          "text": "show me shake shack promotion"
+        },
+        {
+          "text": "what are the dining promotions"
+        },
+        {
+          "text": "what are your dining promotions?"
+        }
+      ],
+      "description": "Dining Promotions"
+    },
+    {
+      "intent": "Exploring_promotions",
+      "examples": [
+        {
+          "text": "activities for children"
+        },
+        {
+          "text": "attractive travel deals"
+        },
+        {
+          "text": "day trips"
+        },
+        {
+          "text": "do"
+        },
+        {
+          "text": "doing"
+        },
+        {
+          "text": "Exploration activities"
+        },
+        {
+          "text": "family activities"
+        },
+        {
+          "text": "family packages"
+        },
+        {
+          "text": "family trips"
+        },
+        {
+          "text": "hotel deals"
+        },
+        {
+          "text": "hotel promotions"
+        },
+        {
+          "text": "hotels"
+        },
+        {
+          "text": "places of interests"
+        },
+        {
+          "text": "see fairmont"
+        },
+        {
+          "text": "see snow city"
+        },
+        {
+          "text": "see universal studios"
+        },
+        {
+          "text": "snow city"
+        },
+        {
+          "text": "staycation"
+        },
+        {
+          "text": "travel deals"
+        },
+        {
+          "text": "Travel for senior citizens"
+        },
+        {
+          "text": "Travel with aging parents"
+        },
+        {
+          "text": "Travel with older folks"
+        },
+        {
+          "text": "where to go"
+        },
+        {
+          "text": "where to visit"
+        }
+      ],
+      "description": "Travel and exploration promotions"
+    },
+    {
+      "intent": "feedback_polite",
+      "examples": [
+        {
+          "text": "complaints"
+        },
+        {
+          "text": "feedback"
+        },
+        {
+          "text": "i want to complain"
+        },
+        {
+          "text": "not bad"
+        },
+        {
+          "text": "pretty clever"
+        },
+        {
+          "text": "pretty smart"
+        },
+        {
+          "text": "provide feedback"
+        },
+        {
+          "text": "smart bot"
+        },
+        {
+          "text": "suggestions"
+        },
+        {
+          "text": "Well done"
+        },
+        {
+          "text": "Where to give feedback"
+        },
+        {
+          "text": "you are effective"
+        },
+        {
+          "text": "you are quite smart"
+        }
+      ],
+      "description": "Provide feedback"
+    },
+    {
+      "intent": "feedback_rude",
+      "examples": [
+        {
+          "text": "dumb dumb"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "idiot"
+        },
+        {
+          "text": "i hate you"
+        },
+        {
+          "text": "Nonsense"
+        },
+        {
+          "text": "pretty stupid"
+        },
+        {
+          "text": "so dumb"
+        },
+        {
+          "text": "stupid"
+        },
+        {
+          "text": "useless"
+        },
+        {
+          "text": "why are you so dumb"
+        },
+        {
+          "text": "why do you exist"
+        },
+        {
+          "text": "why you like that"
+        },
+        {
+          "text": "You are full of nonsense"
+        },
+        {
+          "text": "You are ineffective"
+        },
+        {
+          "text": "you are inefficient"
+        },
+        {
+          "text": "You are stupid"
+        },
+        {
+          "text": "you are wasting my time"
+        }
+      ],
+      "description": "Rude customers"
+    },
+    {
+      "intent": "future_promotions",
+      "examples": [
+        {
+          "text": "airtickets"
+        },
+        {
+          "text": "bars"
+        },
+        {
+          "text": "camping activities"
+        },
+        {
+          "text": "cooking classes"
+        },
+        {
+          "text": "courses"
+        },
+        {
+          "text": "cruise"
+        },
+        {
+          "text": "dancing"
+        },
+        {
+          "text": "do you have staycation"
+        },
+        {
+          "text": "entertainment"
+        },
+        {
+          "text": "exhibitions"
+        },
+        {
+          "text": "fencing"
+        },
+        {
+          "text": "fishing"
+        },
+        {
+          "text": "hiking"
+        },
+        {
+          "text": "movies"
+        },
+        {
+          "text": "night entertainment"
+        },
+        {
+          "text": "outdoor"
+        },
+        {
+          "text": "overseas travel"
+        },
+        {
+          "text": "overseas trips"
+        },
+        {
+          "text": "rock climbing"
+        },
+        {
+          "text": "sailing"
+        },
+        {
+          "text": "sea sports"
+        },
+        {
+          "text": "sports"
+        },
+        {
+          "text": "staycation hotel"
+        },
+        {
+          "text": "water sports"
+        }
+      ],
+      "description": "Future promotions"
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "call the manager"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a Relationship Manager?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "get me a person"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I am angry get me human agent"
+        },
+        {
+          "text": "I don't want to speak with a robot"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I dont want to talk to a computer"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to speak to a human"
+        },
+        {
+          "text": "I want to speak to a person"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want to talk to the manager"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "representative"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "talk to a human"
+        },
+        {
+          "text": "transfer me to a human"
+        },
+        {
+          "text": "transfer me to a smart agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good Afternoon"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "He'llo"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi Princy"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "h'llo"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "how are you?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Princy"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greetings"
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "arrivederci"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "good day"
+        },
+        {
+          "text": "it is a pleasure. Goodbye"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "thanks alot"
+        },
+        {
+          "text": "thanks bye"
+        },
+        {
+          "text": "Thanks Princy"
+        },
+        {
+          "text": "Thank you bye"
+        }
+      ],
+      "description": "Good byes"
+    },
+    {
+      "intent": "Help",
+      "examples": [
+        {
+          "text": "can you assist me"
+        },
+        {
+          "text": "can you help"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "help me"
+        },
+        {
+          "text": "help me book"
+        },
+        {
+          "text": "help me decide"
+        },
+        {
+          "text": "Help me to buy vouchers"
+        },
+        {
+          "text": "help me to choose promo"
+        },
+        {
+          "text": "Help me to order"
+        },
+        {
+          "text": "how to book"
+        },
+        {
+          "text": "I am looking for some help"
+        },
+        {
+          "text": "i need assistance"
+        },
+        {
+          "text": "please help"
+        }
+      ],
+      "description": "Ask for help"
+    },
+    {
+      "intent": "None_of_the_above",
+      "examples": [
+        {
+          "text": "None of the above"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Other_promotions",
+      "examples": [
+        {
+          "text": "Anything else?"
+        },
+        {
+          "text": "Boring"
+        },
+        {
+          "text": "change my mind"
+        },
+        {
+          "text": "Do you have other promotions"
+        },
+        {
+          "text": "Is that all you have?"
+        },
+        {
+          "text": "none"
+        },
+        {
+          "text": "Not interested"
+        },
+        {
+          "text": "Other promotions"
+        },
+        {
+          "text": "Show me other promotions"
+        },
+        {
+          "text": "show me something else"
+        },
+        {
+          "text": "So limited promotions"
+        },
+        {
+          "text": "Terrible options"
+        },
+        {
+          "text": "Uninteresting"
+        },
+        {
+          "text": "what else"
+        },
+        {
+          "text": "What else besides these"
+        }
+      ],
+      "description": "Search for other promotions"
+    },
+    {
+      "intent": "payment",
+      "examples": [
+        {
+          "text": "charge to credit card"
+        },
+        {
+          "text": "how to make payment"
+        },
+        {
+          "text": "how to pay"
+        },
+        {
+          "text": "like to pay"
+        },
+        {
+          "text": "payment"
+        },
+        {
+          "text": "pay now"
+        },
+        {
+          "text": "pay with credit card"
+        },
+        {
+          "text": "where to make payment"
+        },
+        {
+          "text": "where to pay"
+        },
+        {
+          "text": "wish to make payment"
+        }
+      ],
+      "description": "Pay for purchases"
+    },
+    {
+      "intent": "promotions",
+      "examples": [
+        {
+          "text": "Any great deals?"
+        },
+        {
+          "text": "Best deals"
+        },
+        {
+          "text": "Continue shopping"
+        },
+        {
+          "text": "day activities"
+        },
+        {
+          "text": "deal"
+        },
+        {
+          "text": "Deals?"
+        },
+        {
+          "text": "dine out"
+        },
+        {
+          "text": "dining"
+        },
+        {
+          "text": "good deals"
+        },
+        {
+          "text": "Great deals?"
+        },
+        {
+          "text": "i want a deal"
+        },
+        {
+          "text": "I would like to enquire regarding your promotions"
+        },
+        {
+          "text": "Latest promotions?"
+        },
+        {
+          "text": "night activities"
+        },
+        {
+          "text": "please proceed"
+        },
+        {
+          "text": "Promotions?"
+        },
+        {
+          "text": "promotions lah"
+        },
+        {
+          "text": "Recommendatios?"
+        },
+        {
+          "text": "Return to Category menu"
+        },
+        {
+          "text": "see promos"
+        },
+        {
+          "text": "see promotions"
+        },
+        {
+          "text": "shopping"
+        },
+        {
+          "text": "Show me promotions"
+        },
+        {
+          "text": "Show promotions"
+        },
+        {
+          "text": "travel"
+        },
+        {
+          "text": "trips"
+        },
+        {
+          "text": "what are the deals"
+        },
+        {
+          "text": "What are your current promotions?"
+        },
+        {
+          "text": "what do you recommend?"
+        },
+        {
+          "text": "What promotions do you have"
+        },
+        {
+          "text": "what's interesting?"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yes go ahead"
+        }
+      ],
+      "description": "Enquiry of promotionsdeal"
+    },
+    {
+      "intent": "shopping_promotions",
+      "examples": [
+        {
+          "text": "i would like to know more about shopping promotions"
+        },
+        {
+          "text": "see europace"
+        },
+        {
+          "text": "see kidmoro"
+        },
+        {
+          "text": "see vitadeals"
+        },
+        {
+          "text": "shopping promo"
+        },
+        {
+          "text": "shopping promotions"
+        },
+        {
+          "text": "shopping promotions?"
+        },
+        {
+          "text": "shopping promotions pls"
+        },
+        {
+          "text": "show me the shopping deals?"
+        },
+        {
+          "text": "show me your shopping promotions?"
+        },
+        {
+          "text": "what are the shopping promotions"
+        },
+        {
+          "text": "what are your shopping deals?"
+        },
+        {
+          "text": "what are your shopping promotions?"
+        }
+      ],
+      "description": "Shopping Promotions"
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "Cheers"
+        },
+        {
+          "text": "i appreciate it"
+        },
+        {
+          "text": "many thanks"
+        },
+        {
+          "text": "much appreciated"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "that's nice of you"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "you are quite clever for a bot"
+        }
+      ],
+      "description": "Thanks"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "confirmation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dining",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Exit",
+          "synonyms": [
+            "end",
+            "get out"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Exploring",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "nah",
+            "no",
+            "no thanks",
+            "not that"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Shopping",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "confirmed",
+            "noted",
+            "ok",
+            "okay",
+            "sure",
+            "ya",
+            "yah",
+            "yes",
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Feedback",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "https://summitbank.kirvybrood.com/contact-us/",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "payment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Continue shopping",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pay now",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "promotion_Dining",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Crystal Jade",
+          "synonyms": [
+            "crystal jade"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kinki Fish",
+          "synonyms": [
+            "Kinki Fish Restaurant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Return to Category menu",
+          "synonyms": [
+            "Return to main menu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Shake Shack",
+          "synonyms": [
+            "Shake Shack"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "promotion_Exploring",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Fairmont",
+          "synonyms": [
+            "Hotel Fairmont"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Return to Category menu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Snow City",
+          "synonyms": [
+            "snow city"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Universal Studios",
+          "synonyms": [
+            "universal studio"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "promotion_None_of_the_above",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "None of the above",
+          "synonyms": [
+            "next",
+            "none above"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "promotions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Dining",
+          "synonyms": [
+            "bakery",
+            "bistro",
+            "cafe",
+            "diner",
+            "fnb",
+            "food",
+            "restaurant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Exploring",
+          "synonyms": [
+            "bungalow",
+            "hotel",
+            "hotels",
+            "resort",
+            "staycation",
+            "trips"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Shopping",
+          "synonyms": [
+            "buy",
+            "lifestyle",
+            "resell",
+            "shops",
+            "store"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "promotion_Shopping",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "EuropAce",
+          "synonyms": [
+            "EuropAce"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kidmoro",
+          "synonyms": [
+            "Kidmoro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Return to Category menu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vitadeals SG",
+          "synonyms": [
+            "Vitadeals"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "definitely not",
+            "don't think so",
+            "dont think so",
+            "i think not",
+            "nope",
+            "not at this time",
+            "not now"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Thank you",
+          "synonyms": [
+            "thanks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "definitely",
+            "go for it",
+            "let's do it",
+            "ok",
+            "please",
+            "sure",
+            "why not",
+            "yeah",
+            "yep",
+            "yes",
+            "you bet",
+            "you betcha"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1618896823818",
+      "context": {
+        "shopping_number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_10_1618896823819"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1618976146742",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1618976146742",
+      "previous_sibling": "handler_3_1618976146742"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1619086609130",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1619089622886"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_3_1618893500661",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1618893500725",
+      "previous_sibling": "handler_9_1618893500725"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1618976146742",
+      "context": {
+        "promotions_Dining": "@promotions:Dining"
+      },
+      "conditions": "@promotions:Dining",
+      "event_name": "input",
+      "dialog_node": "handler_3_1618976146742"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1619086609131",
+      "context": {
+        "promotion_Dining": "@promotion_Dining"
+      },
+      "conditions": "@promotion_Dining",
+      "event_name": "input",
+      "dialog_node": "handler_3_1619086609131"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How many vouchers would you like to buy?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1618896823818",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1618896823819",
+      "previous_sibling": "handler_10_1618896823819"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_2_1619086609131",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1619086609131",
+      "previous_sibling": "handler_3_1619086609131"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1618891234879",
+      "context": {
+        "exploring_number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_5_1618891234880"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1618891060166",
+      "context": {
+        "promotion_Exploring": "@promotion_Exploring"
+      },
+      "conditions": "@promotion_Exploring",
+      "event_name": "input",
+      "dialog_node": "handler_6_1618891060210"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1619086609131",
+      "context": {
+        "dining_number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_6_1619086609131"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1619422843632",
+      "event_name": "input",
+      "dialog_node": "handler_6_1619422843659"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How many vouchers would you like to buy?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1618891234879",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1618891234880",
+      "previous_sibling": "handler_5_1618891234880"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How many vouchers would you like to buy?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1619086609131",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1619086609131",
+      "previous_sibling": "handler_6_1619086609131"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_7_1618891060166",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1618891060210",
+      "previous_sibling": "handler_6_1618891060210"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1618893500661",
+      "context": {
+        "promotion_Shopping": "@promotion_Shopping"
+      },
+      "conditions": "@promotion_Shopping",
+      "event_name": "input",
+      "dialog_node": "handler_9_1618893500725"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1619422843632",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1619422843659",
+      "previous_sibling": "handler_6_1619422843659"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which of these exploring promotions would you be interested in?",
+            "options": [
+              {
+                "label": "Fairmont",
+                "value": {
+                  "input": {
+                    "text": "Fairmont Promotion"
+                  }
+                }
+              },
+              {
+                "label": "Universal Studios",
+                "value": {
+                  "input": {
+                    "text": "Universal Studios Promotion"
+                  }
+                }
+              },
+              {
+                "label": "Snow City",
+                "value": {
+                  "input": {
+                    "text": "Snow City promotions"
+                  }
+                }
+              },
+              {
+                "label": "Return to Categories",
+                "value": {
+                  "input": {
+                    "text": "Return to Category menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1618385980504",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@promotions:Exploring",
+      "dialog_node": "node_10_1618386696331",
+      "previous_sibling": "node_6_1618667929252"
+    },
+    {
+      "type": "standard",
+      "title": "Direct to payment",
+      "output": {
+        "generic": [
+          {
+            "title": "Would you like to proceed to pay for your purchases or continue shopping?",
+            "options": [
+              {
+                "label": "Pay now",
+                "value": {
+                  "input": {
+                    "text": "Pay now"
+                  }
+                }
+              },
+              {
+                "label": "Continue shopping",
+                "value": {
+                  "input": {
+                    "text": "Continue shopping"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#payment",
+      "dialog_node": "node_10_1618901563854",
+      "previous_sibling": "node_1_1619162040838"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1618385980504",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1618798689980"
+      },
+      "conditions": "@promotion_None_of_the_above",
+      "dialog_node": "node_10_1619420086316",
+      "previous_sibling": "node_5_1618667937260"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which promotion vouchers would you like to buy?",
+            "options": [
+              {
+                "label": "Fairmont",
+                "value": {
+                  "input": {
+                    "text": "Fairmont promotions"
+                  }
+                }
+              },
+              {
+                "label": "Snow City",
+                "value": {
+                  "input": {
+                    "text": "Snow City promotions"
+                  }
+                }
+              },
+              {
+                "label": "Universal Studios",
+                "value": {
+                  "input": {
+                    "text": "Universal Studio promotion"
+                  }
+                }
+              },
+              {
+                "label": "Return to Categories",
+                "value": {
+                  "input": {
+                    "text": "Return to Categories"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1618888454629",
+      "conditions": "@promotions:Exploring",
+      "dialog_node": "node_10_1619537641159",
+      "previous_sibling": "node_8_1619537233119"
+    },
+    {
+      "type": "folder",
+      "title": "Closing",
+      "metadata": {},
+      "digress_in": "not_available",
+      "dialog_node": "node_1_1516824993307",
+      "previous_sibling": "node_5_1618980510374"
+    },
+    {
+      "type": "standard",
+      "title": "Outcome of other promotion request - copy 1",
+      "output": {},
+      "parent": "node_8_1618977500901",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@confirmation",
+      "dialog_node": "node_1_1618977787400"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How can I be of service to you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1618980510374",
+      "conditions": "#Help",
+      "dialog_node": "node_1_1618987330689",
+      "previous_sibling": "node_22_1467833484410"
+    },
+    {
+      "type": "frame",
+      "title": "Buy dining vouchers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I got your order as $dining_number $promotion_Dining vouchers"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1619536252875",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1618900617174"
+      },
+      "conditions": "@promotions:Dining",
+      "dialog_node": "node_1_1619086609130",
+      "previous_sibling": "response_4_1619536393792"
+    },
+    {
+      "type": "folder",
+      "title": "Purchasing",
+      "dialog_node": "node_1_1619162040838",
+      "previous_sibling": "node_6_1619162219392"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "So long",
+            "See ya",
+            "Good bye"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1516824993307",
+      "metadata": {},
+      "conditions": "#Goodbye",
+      "dialog_node": "node_12_1468329566917"
+    },
+    {
+      "type": "standard",
+      "parent": "node_22_1467833484410",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply",
+      "dialog_node": "node_19_1468350024009"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry I don't understand your request. Please rephrase and let me try again. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1467831978407",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1516824993307"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "You're welcome. Just let me know if you need anything else",
+            "No problem. Just let me know if you need anything else",
+            "My pleasure. Just let me know if you need anything else"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_1_1516824993307",
+      "metadata": {},
+      "conditions": "#Thanks",
+      "dialog_node": "node_2_1468243505617",
+      "previous_sibling": "node_12_1468329566917"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To serve you better in the future, please leave suggestions in <a href=\"https://summitbank.kirvybrood.com/contact-us/\" target=\"blank\">Contact us</a> page on our website."
+              },
+              {
+                "text": "Thank you 😄"
+              },
+              {
+                "text": "Look forward to serving you again soon. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1618980510374",
+      "conditions": "#feedback_polite",
+      "dialog_node": "node_2_1618903843074"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, nice to meet you."
+              },
+              {
+                "text": "How may I assist you with our promotions?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_2_1618992442837",
+      "previous_sibling": "Opening"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1619162040838",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1618890728773"
+      },
+      "conditions": "#buy_exploring_voucher",
+      "dialog_node": "node_2_1619087606707",
+      "previous_sibling": "node_9_1619087559756"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1619535849570",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@promotion_Dining",
+      "dialog_node": "node_2_1619536252875"
+    },
+    {
+      "type": "standard",
+      "title": "Transfer to agent",
+      "output": {
+        "generic": [
+          {
+            "title": "Hi, please may I try to assist you first?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1618980510374",
+      "metadata": {},
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_22_1467833484410",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_3_1618993766059"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1618667929252",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@promotion_Dining",
+      "dialog_node": "node_3_1618820559097",
+      "previous_sibling": "response_2_1618821864189"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1618386696331",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@promotion_Exploring",
+      "dialog_node": "node_3_1618823930263"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which promotion's vouchers would you like to buy?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": " We have promotions in these categories",
+            "options": [
+              {
+                "label": "Dining",
+                "value": {
+                  "input": {
+                    "text": "Dining"
+                  }
+                }
+              },
+              {
+                "label": "Shopping",
+                "value": {
+                  "input": {
+                    "text": "Shopping"
+                  }
+                }
+              },
+              {
+                "label": "Exploring",
+                "value": {
+                  "input": {
+                    "text": "Exploring"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1619162040838",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#buy_voucher",
+      "dialog_node": "node_3_1618888454629",
+      "previous_sibling": "node_2_1619087606707"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1618888454629",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@confirmation",
+      "dialog_node": "node_3_1618985175743",
+      "previous_sibling": "response_5_1618985454604"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I beg your pardon. 🤦‍♀️"
+              },
+              {
+                "text": "Please provide constructive response."
+              },
+              {
+                "text": " After all, I am only a chatbot. 😉"
+              },
+              {
+                "text": "By the way, I can work 24/7....Can you? 😎"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1618980510374",
+      "conditions": "#feedback_rude",
+      "dialog_node": "node_3_1618993766059",
+      "previous_sibling": "node_2_1618903843074"
+    },
+    {
+      "type": "standard",
+      "title": "Other Promotions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What other category or activity would you like us to promote in future?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1619162219392",
+      "conditions": "#Other_promotions",
+      "dialog_node": "node_4_1618798689980",
+      "previous_sibling": "node_8_1618385980504"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1618667937260",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@promotion_Shopping",
+      "dialog_node": "node_4_1618824521885"
+    },
+    {
+      "type": "frame",
+      "title": "Buy exploring vouchers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I got your order as $exploring_number $promotion_Exploring vouchers."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1619537646452",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1618900617174"
+      },
+      "conditions": "@promotions:Exploring",
+      "dialog_node": "node_4_1618890728773",
+      "previous_sibling": "response_6_1619537877357"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which of these shopping promotions would you be interested in?",
+            "options": [
+              {
+                "label": "Vitadeals",
+                "value": {
+                  "input": {
+                    "text": "Vitadeals Promotion"
+                  }
+                }
+              },
+              {
+                "label": "EuropAce",
+                "value": {
+                  "input": {
+                    "text": "EuropAce Promotion"
+                  }
+                }
+              },
+              {
+                "label": "Kidmoro",
+                "value": {
+                  "input": {
+                    "text": "Kidmoro Promotion"
+                  }
+                }
+              },
+              {
+                "label": "Return to Categories",
+                "value": {
+                  "input": {
+                    "text": "Return to Category menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1618385980504",
+      "conditions": "@promotions:Shopping",
+      "dialog_node": "node_5_1618667937260",
+      "previous_sibling": "node_10_1618386696331"
+    },
+    {
+      "type": "standard",
+      "title": "Suggestion of other promotions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your feedback."
+              },
+              {
+                "text": "We will strive to improve and expand on our promotions.  "
+              },
+              {
+                "text": "Sorry if I have not responded appropriately. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Would you like to view the current promotions? We have some attractive deals. ",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No ",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1618798689980",
+      "conditions": "@promotions != \"Shopping\" &&    @promotions != \"Exploring\" &&   @promotions != \"Dining\"",
+      "dialog_node": "node_5_1618830191185"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Would you like to add anything else for your purchase?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No ",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1618888454629",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "false",
+      "dialog_node": "node_5_1618900617174",
+      "previous_sibling": "node_3_1618985175743"
+    },
+    {
+      "type": "folder",
+      "title": "Help and feedback",
+      "dialog_node": "node_5_1618980510374",
+      "previous_sibling": "node_10_1618901563854"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which promotion vouchers would you like to buy?",
+            "options": [
+              {
+                "label": "Crystal Jade ",
+                "value": {
+                  "input": {
+                    "text": "Crystal Jade promotion"
+                  }
+                }
+              },
+              {
+                "label": "kinki Fish",
+                "value": {
+                  "input": {
+                    "text": "kinki Fish promotion"
+                  }
+                }
+              },
+              {
+                "label": "Shake Shack",
+                "value": {
+                  "input": {
+                    "text": "Shake Shack promotion"
+                  }
+                }
+              },
+              {
+                "label": "Return to Categories",
+                "value": {
+                  "input": {
+                    "text": "Return to Categories"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1618888454629",
+      "conditions": "@promotions:Dining",
+      "dialog_node": "node_5_1619535849570",
+      "previous_sibling": "node_5_1618900617174"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which of these dining promotions would you be interested in?",
+            "options": [
+              {
+                "label": "Shake Shack",
+                "value": {
+                  "input": {
+                    "text": "Shake Shack promotion"
+                  }
+                }
+              },
+              {
+                "label": "Kinki Fish ",
+                "value": {
+                  "input": {
+                    "text": "Kinki Fish promotion"
+                  }
+                }
+              },
+              {
+                "label": "Crystal Jade",
+                "value": {
+                  "input": {
+                    "text": "Crystal Jade promotion"
+                  }
+                }
+              },
+              {
+                "label": "Return to Categories",
+                "value": {
+                  "input": {
+                    "text": "Return to Category menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1618385980504",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@promotions:Dining",
+      "dialog_node": "node_6_1618667929252"
+    },
+    {
+      "type": "standard",
+      "title": "Outcome of other promotion request",
+      "parent": "node_5_1618830191185",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@confirmation",
+      "dialog_node": "node_6_1618894520836"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1619162040838",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1619086609130"
+      },
+      "conditions": "#buy_dining_vouchers",
+      "dialog_node": "node_6_1619086755266"
+    },
+    {
+      "type": "folder",
+      "title": "Promotion Enquiries",
+      "dialog_node": "node_6_1619162219392",
+      "previous_sibling": "node_2_1618992442837"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1619537233119",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@promotion_Shopping",
+      "dialog_node": "node_6_1619537239099"
+    },
+    {
+      "type": "frame",
+      "title": "Buy shopping vouchers",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I got your order as $shopping_number $promotion_Shopping vouchers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1619537239099",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1618900617174"
+      },
+      "conditions": "@promotions:Shopping",
+      "dialog_node": "node_7_1618890798409",
+      "previous_sibling": "response_9_1619537536341"
+    },
+    {
+      "type": "standard",
+      "title": "Outcome of additional order request",
+      "output": {},
+      "parent": "node_5_1618900617174",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@confirmation",
+      "dialog_node": "node_7_1618900906066"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1619537641159",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@promotion_Exploring",
+      "dialog_node": "node_7_1619537646452"
+    },
+    {
+      "type": "standard",
+      "title": "Present the list of categories",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have promotions to dine, explore and shop. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Which category are you interested in?",
+            "options": [
+              {
+                "label": "DINING",
+                "value": {
+                  "input": {
+                    "text": "dining promotions"
+                  }
+                }
+              },
+              {
+                "label": "SHOPPING",
+                "value": {
+                  "input": {
+                    "text": "shopping promotions"
+                  }
+                }
+              },
+              {
+                "label": "EXPLORING",
+                "value": {
+                  "input": {
+                    "text": "exploring promotions"
+                  }
+                }
+              },
+              {
+                "label": "NONE OF THE ABOVE",
+                "value": {
+                  "input": {
+                    "text": "None of the above"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1619162219392",
+      "conditions": "#promotions",
+      "dialog_node": "node_8_1618385980504"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1618798689980",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@promotions",
+      "dialog_node": "node_8_1618975861345",
+      "previous_sibling": "node_5_1618830191185"
+    },
+    {
+      "type": "standard",
+      "title": "Future Promotions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Very sorry, we don't have such promotion. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Can I show you what we have currently?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1619162219392",
+      "conditions": "#future_promotions",
+      "dialog_node": "node_8_1618977500901",
+      "previous_sibling": "node_4_1618798689980"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Which promotion vouchers would you like to buy?",
+            "options": [
+              {
+                "label": "Kidmoro",
+                "value": {
+                  "input": {
+                    "text": "Kidmoro promotion"
+                  }
+                }
+              },
+              {
+                "label": "Vitadeals SG",
+                "value": {
+                  "input": {
+                    "text": "Vitadeals promotion"
+                  }
+                }
+              },
+              {
+                "label": "EuropAce",
+                "value": {
+                  "input": {
+                    "text": "EuropAce promotions"
+                  }
+                }
+              },
+              {
+                "label": "Return to Categories",
+                "value": {
+                  "input": {
+                    "text": "Return to Categories"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1618888454629",
+      "conditions": "@promotions:Shopping",
+      "dialog_node": "node_8_1619537233119",
+      "previous_sibling": "node_5_1619535849570"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1618901563854",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@payment",
+      "dialog_node": "node_9_1618902278926"
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1619162040838",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1618890798409"
+      },
+      "conditions": "#buy_shopping_voucher",
+      "dialog_node": "node_9_1619087559756",
+      "previous_sibling": "node_6_1619086755266"
+    },
+    {
+      "type": "standard",
+      "title": "Opening",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I’m Princy, your virtual concierge. I help you to purchase the best deals. "
+              },
+              {
+                "text": "Hi, my name is Princy. I am your virtual concierge. I am happy to assist you to view and buy promotion vouchers"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "Opening"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see the details of this promotion, go to the <a href=https://summitbank.kirvybrood.com/kinki-fish-restaurant/\" target=\"blank\">click here</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618820559097",
+      "conditions": "@promotion_Dining:(Kinki Fish)",
+      "dialog_node": "response_10_1618824498826",
+      "previous_sibling": "response_3_1618822039480"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see the details of this promotion, go to the <a href=https://summitbank.kirvybrood.com/kidmoro/\" target=\"blank\">click here</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1618824521885",
+      "conditions": "@promotion_Shopping:Kidmoro",
+      "dialog_node": "response_10_1618824638698",
+      "previous_sibling": "response_8_1618824604054"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_9_1618902278926",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1618888454629"
+      },
+      "conditions": "@payment:(Continue shopping)",
+      "dialog_node": "response_10_1618902397481",
+      "previous_sibling": "response_4_1618902317142"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1618985175743",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1619537233119"
+      },
+      "conditions": "@promotions:Shopping",
+      "dialog_node": "response_10_1618985798099",
+      "previous_sibling": "response_2_1618985774959"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1619537239099",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1618890798409"
+      },
+      "conditions": "@promotion_Shopping:Kidmoro",
+      "dialog_node": "response_10_1619537441109"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which promotion's vouchers would you like to buy?"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": " We have promotions in these categories",
+            "options": [
+              {
+                "label": "Dining",
+                "value": {
+                  "input": {
+                    "text": "Dining"
+                  }
+                }
+              },
+              {
+                "label": "Shopping",
+                "value": {
+                  "input": {
+                    "text": "Shopping"
+                  }
+                }
+              },
+              {
+                "label": "Exploring",
+                "value": {
+                  "input": {
+                    "text": "Exploring"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618888454629",
+      "disabled": true,
+      "dialog_node": "response_1_1618984701865"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry for my ineffectiveness."
+              },
+              {
+                "text": "Transferring... [Use IBM Webhook to connect to Zendesk)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_19_1468350024009",
+      "conditions": "@reply:no",
+      "dialog_node": "response_1_1618987172098",
+      "previous_sibling": "response_5_1618987134133"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I’m Princy, your virtual concierge. I help you to purchase the best deals. "
+              },
+              {
+                "text": "Hi, my name is Princy. I am your virtual concierge. I am happy to assist you to view and buy promotion vouchers"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Opening",
+      "context": {},
+      "disabled": true,
+      "dialog_node": "response_1_1619422595780"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1619537646452",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1618890728773"
+      },
+      "conditions": "@promotion_Exploring:Fairmont",
+      "dialog_node": "response_1_1619537818373"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please see website WWWW"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618667929252",
+      "disabled": true,
+      "conditions": "@promotion_Dining:(Crystal Jade)",
+      "dialog_node": "response_2_1618821864189"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to get anything else for your purchase?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1618900617174",
+      "disabled": true,
+      "dialog_node": "response_2_1618900745617",
+      "previous_sibling": "node_7_1618900906066"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1618977787400",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1618385980504"
+      },
+      "conditions": "@confirmation:Yes",
+      "dialog_node": "response_2_1618977787404"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1618985175743",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1619537641159"
+      },
+      "conditions": "@promotions:Exploring",
+      "dialog_node": "response_2_1618985774959",
+      "previous_sibling": "response_8_1618985275772"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1619536252875",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1619086609130"
+      },
+      "conditions": "@promotion_Dining:(Crystal Jade)",
+      "dialog_node": "response_2_1619536301872"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1619536252875",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1619086609130"
+      },
+      "conditions": "@promotion_Dining:(Kinki Fish)",
+      "dialog_node": "response_2_1619536370692",
+      "previous_sibling": "response_2_1619536301872"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " To see the details of this promotion, go to the <a href=\"https://summitbank.kirvybrood.com/shake-shack/\" target=\"blank\">click here</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618820559097",
+      "conditions": "@promotion_Dining:(Shake Shack)",
+      "dialog_node": "response_3_1618822039480"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see the details of this promotion, go to the <a href=https://summitbank.kirvybrood.com/universal-studios//\" target=\"blank\">click here</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618823930263",
+      "conditions": "@promotion_Exploring:(Universal Studios)",
+      "dialog_node": "response_3_1618824030839",
+      "previous_sibling": "response_7_1618823985953"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To serve you better in the future, please leave suggestions in <a href=\"https://summitbank.kirvybrood.com/contact-us/\" target=\"blank\">Contact us</a> page on our website."
+              },
+              {
+                "text": "Thank you very much. Look forward to serving you again soon. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1618977787400",
+      "conditions": "@confirmation:No",
+      "dialog_node": "response_3_1618977787404",
+      "previous_sibling": "response_2_1618977787404"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1619537646452",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1618890728773"
+      },
+      "conditions": "@promotion_Exploring:(Snow City)",
+      "dialog_node": "response_3_1619537859622",
+      "previous_sibling": "response_1_1619537818373"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you. Please click this link <a href=\" https://summitbank.kirvybrood.com/cart/\"target=\"blank\">Check out</a> to make payment."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1618902278926",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1618903843074"
+      },
+      "conditions": "@payment:(Pay now)",
+      "dialog_node": "response_4_1618902317142"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1618824521885",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1618385980504"
+      },
+      "conditions": "@promotion_Shopping:(Return to Category menu)",
+      "dialog_node": "response_4_1619425717938",
+      "previous_sibling": "response_10_1618824638698"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1468350024009",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1468243505617"
+      },
+      "conditions": "@reply:(Thank you)",
+      "dialog_node": "response_4_1619425812710",
+      "previous_sibling": "response_1_1618987172098"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1619536252875",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1619086609130"
+      },
+      "conditions": "@promotion_Dining:(Shake Shack)",
+      "dialog_node": "response_4_1619536393792",
+      "previous_sibling": "response_2_1619536370692"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1619537239099",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1618890798409"
+      },
+      "conditions": "@promotion_Shopping:(Vitadeals SG)",
+      "dialog_node": "response_4_1619537482853",
+      "previous_sibling": "response_10_1619537441109"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry that our promotions did not meet your expectations. "
+              },
+              {
+                "text": "To serve you better in the future, please leave suggestions in <a href=\"https://summitbank.kirvybrood.com/contact-us/\" target=\"blank\">Contact us</a> page on our website."
+              },
+              {
+                "text": "Thank you very much! I look forward to serving you again soon. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1618894520836",
+      "conditions": "@confirmation:No",
+      "dialog_node": "response_5_1618894886731",
+      "previous_sibling": "response_9_1618894652460"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618888454629",
+      "disabled": true,
+      "dialog_node": "response_5_1618985454604",
+      "previous_sibling": "response_1_1618984701865"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you. How can I assist you with promotions."
+              },
+              {
+                "text": "Please tell me how can I be of service to you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1468350024009",
+      "conditions": "@reply:yes",
+      "dialog_node": "response_5_1618987134133"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see the details of this promotion, go to the <a href=https://summitbank.kirvybrood.com/snow-city/\" target=\"blank\">click here</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618823930263",
+      "conditions": "@promotion_Exploring:(Snow City)",
+      "dialog_node": "response_6_1618824058110",
+      "previous_sibling": "response_3_1618824030839"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see the details of this promotion, go to the <a href=https://summitbank.kirvybrood.com/vitadeals-sg/\" target=\"blank\">click here</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1618824521885",
+      "conditions": "@promotion_Shopping:(Vitadeals SG)",
+      "dialog_node": "response_6_1618824545520"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1619537646452",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1618890728773"
+      },
+      "conditions": "@promotion_Exploring:(Universal Studios)",
+      "dialog_node": "response_6_1619537877357",
+      "previous_sibling": "response_3_1619537859622"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see the details of this promotion, go to the <a href=https://summitbank.kirvybrood.com/Fairmont-Hotels-Resort/\" target=\"blank\">click here</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618823930263",
+      "conditions": "@promotion_Exploring:Fairmont",
+      "dialog_node": "response_7_1618823985953"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see the details of this promotion, go to the <a href=https://summitbank.kirvybrood.com/Crystal-Jade/\" target=\"blank\">click here</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618820559097",
+      "conditions": "@promotion_Dining:(Crystal Jade)",
+      "dialog_node": "response_7_1618824519537",
+      "previous_sibling": "response_10_1618824498826"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1618975861345",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1618667937260"
+      },
+      "conditions": "@promotions:Shopping",
+      "dialog_node": "response_7_1618976479622",
+      "previous_sibling": "response_8_1618976456896"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618820559097",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1618385980504"
+      },
+      "conditions": "@promotion_Dining:(Return to Category menu)",
+      "dialog_node": "response_7_1619422138611",
+      "previous_sibling": "response_7_1618824519537"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618823930263",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1618385980504"
+      },
+      "conditions": "@promotion_Exploring:(Return to Category menu)",
+      "dialog_node": "response_7_1619425621485",
+      "previous_sibling": "response_6_1618824058110"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To see the details of this promotion, go to the <a href=https://summitbank.kirvybrood.com/europace-sg/\" target=\"blank\">click here</a> page on our website."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1618824521885",
+      "conditions": "@promotion_Shopping:EuropAce",
+      "dialog_node": "response_8_1618824604054",
+      "previous_sibling": "response_6_1618824545520"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1618900906066",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1618385980504"
+      },
+      "conditions": "@confirmation:Yes",
+      "dialog_node": "response_8_1618900906069"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1618975861345",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1618667929252"
+      },
+      "conditions": "@promotions:Dining",
+      "dialog_node": "response_8_1618976141167",
+      "previous_sibling": "slot_6_1618976146742"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1618975861345",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1618386696331"
+      },
+      "conditions": "@promotions:Exploring",
+      "dialog_node": "response_8_1618976456896",
+      "previous_sibling": "response_8_1618976141167"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1618985175743",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1619535849570"
+      },
+      "conditions": "@promotions:Dining",
+      "dialog_node": "response_8_1618985275772"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have promotions to dine, explore and shop. What promotion are you interested in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618894520836",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1618385980504"
+      },
+      "conditions": "@confirmation:Yes",
+      "dialog_node": "response_9_1618894652460"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. I got your final order as below: <br> <? $dining_number ?> <? $promotion_Dining ?> <br> <? $exploring_number ?> <? $promotion_Exploring ?> <br> <? $shopping_number ?> <? $promotion_Shopping ?> voucher(s)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1618900906066",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1618901563854"
+      },
+      "conditions": "@confirmation:No",
+      "dialog_node": "response_9_1618900906069",
+      "previous_sibling": "response_8_1618900906069"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1619537239099",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1618890798409"
+      },
+      "conditions": "@promotion_Shopping:EuropAce",
+      "dialog_node": "response_9_1619537536341",
+      "previous_sibling": "response_4_1619537482853"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1619086609130",
+      "variable": "$promotion_Dining",
+      "dialog_node": "slot_2_1619086609131",
+      "previous_sibling": "handler_1_1619089622886"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1618890798409",
+      "variable": "$promotion_Shopping",
+      "dialog_node": "slot_3_1618893500661"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1618992442837",
+      "dialog_node": "slot_3_1619422843632"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1619086609130",
+      "variable": "$dining_number",
+      "dialog_node": "slot_5_1619086609131",
+      "previous_sibling": "slot_2_1619086609131"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1618975861345",
+      "variable": "$promotions_Dining",
+      "dialog_node": "slot_6_1618976146742"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1618890728773",
+      "variable": "$promotion_Exploring",
+      "dialog_node": "slot_7_1618891060166"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1618890798409",
+      "variable": "$shopping_number",
+      "dialog_node": "slot_8_1618896823818",
+      "previous_sibling": "slot_3_1618893500661"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1618890728773",
+      "variable": "$exploring_number",
+      "dialog_node": "slot_9_1618891234879",
+      "previous_sibling": "slot_7_1618891060166"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Change of mind"
+    },
+    {
+      "text": "exploring"
+    },
+    {
+      "text": "see crystal jad"
+    },
+    {
+      "text": "see kidmoro"
+    },
+    {
+      "text": "what is your nickname"
+    },
+    {
+      "text": "where is the best place to jog?"
+    },
+    {
+      "text": "wil it rain today"
+    },
+    {
+      "text": "yes"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "auto_learn": {
+      "apply": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean you like to buy the voucher?",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 4,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Princy",
+  "language": "en",
+  "description": "A virtual assistant for credit card promotions"
+}
